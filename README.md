@@ -91,7 +91,7 @@ Contributions are welcome! To contribute to the project:
 ### 5. Deployment
 The Crypto Portfolio App is deployed and accessible online. You can view the live application at:
 
-https://marvelous-gecko-ae3587.netlify.appDeployment
+https://66c4db455f3ace2da8289faa--glittering-axolotl-a743ab.netlify.app/
 
 ### 6. Maintainers
 Aditya Narayan Sahoo - https://github.com/Adityamikun
