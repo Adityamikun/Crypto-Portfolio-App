@@ -19,89 +19,83 @@ To get started with the Crypto Portfolio App, follow these steps:
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/Adityamikun/Crypto-Portfolio-App.git
 cd Crypto-Portfolio-App
 
-2. Install Dependencies
-Frontend -
+### 2. Install Dependencies
+### 2.1 Frontend -
 Navigate to the client directory and install the necessary dependencies:
 
-bash
-Copy code
+
 cd client
 npm install
-Smart Contracts
+
+### 2.2 Smart Contracts
 Navigate to the smart_contract directory and install the necessary dependencies:
 
-bash
-Copy code
+
 cd smart_contract
 npm install
 
-3. Configure Environment Variables
+### 2.3 Configure Environment Variables
 Create a .env file in the smart_contract directory with the following content:
 
-env
-Copy code
+
 ALCHEMY_API_KEY=<Your_Alchemy_API_Key>
 PRIVATE_KEY=<Your_Private_Wallet_Key>
+
+
 Replace <Your_Alchemy_API_Key> and <Your_Private_Wallet_Key> with your actual credentials.
 
-4. Compile and Deploy Smart Contracts
+### 2.4 Compile and Deploy Smart Contracts
 Compile and deploy the smart contracts by running:
 
-bash
-Copy code
+
 cd smart_contract
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network <network-name>
-Replace <network-name> with your chosen Ethereum network (e.g., rinkeby, mainnet).
 
-5. Start the Frontend
+Replace <network-name> with your chosen Ethereum network (e.g., sepolia, mainnet).
+
+### 2.5 Start the Frontend
 Run the following command to start the frontend development server:
 
-bash
-Copy code
+
 cd client
 npm run dev
+
 Visit http://localhost:3000 in your browser to view the application.
 
-Getting Help
+### 3. Getting Help
 If you encounter any issues or have questions, please check the following resources:
 
 GitHub Issues: Report bugs or request features.
 Documentation: Check the documentation for detailed setup and configuration instructions.
 Community Forums: Join discussions or seek help from the community.
-Contributing
+
+
+### 4. Contributing
 Contributions are welcome! To contribute to the project:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Make your changes and commit (git commit -m 'Add Your Feature').
-Push to your forked repository (git push origin feature/YourFeature).
-Submit a pull request on GitHub.
-Maintainers
-Aditya Narayan Sahoo - Your GitHub Profile
-Other Contributors: Check the contributors section in the GitHub repository.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+1.Fork the repository.
+2.Create a new branch (git checkout -b feature/YourFeature).
+3.Make your changes and commit (git commit -m 'Add Your Feature').
+4.Push to your forked repository (git push origin feature/YourFeature).
+5.Submit a pull request on GitHub.
 
-Contact
+### 5. Deployment
+The Crypto Portfolio App is deployed and accessible online. You can view the live application at:
+
+https://marvelous-gecko-ae3587.netlify.appDeployment
+
+### 6. Maintainers
+Aditya Narayan Sahoo - https://github.com/Adityamikun
+
+
+### 1.Contact
 For further questions or inquiries, you can reach out to:
 
-Aditya Narayan Sahoo - Your Email
-Project Link: Crypto Portfolio App
+Aditya Narayan Sahoo - narayanaditaydr42@gmail.com
 
-markdown
-Copy code
 
-### Key Sections:
-- **Overview:** Explains what the project does and why it’s useful.
-- **Getting Started:** Provides clear instructions on how to set up and run the project.
-- **Getting Help:** Offers resources for users needing assistance.
-- **Contributing:** Describes how others can contribute to the project.
-- **Maintainers:** Lists the primary maintainers and contributors.
-- **License:** Includes the license information.
-
-Feel free to adjust the placeholders and details according to your project’s specifics and preferences!
