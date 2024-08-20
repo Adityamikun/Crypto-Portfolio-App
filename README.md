@@ -21,9 +21,11 @@ To get started with the Crypto Portfolio App, follow these steps:
 
 
 git clone https://github.com/Adityamikun/Crypto-Portfolio-App.git
+
 cd Crypto-Portfolio-App
 
 ### 2. Install Dependencies
+
 ### 2.1 Frontend -
 Navigate to the client directory and install the necessary dependencies:
 
@@ -71,7 +73,9 @@ Visit http://localhost:3000 in your browser to view the application.
 If you encounter any issues or have questions, please check the following resources:
 
 GitHub Issues: Report bugs or request features.
+
 Documentation: Check the documentation for detailed setup and configuration instructions.
+
 Community Forums: Join discussions or seek help from the community.
 
 
