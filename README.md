@@ -27,13 +27,11 @@ cd Crypto-Portfolio-App
 ### 2.1 Frontend -
 Navigate to the client directory and install the necessary dependencies:
 
-
 cd client
 npm install
 
 ### 2.2 Smart Contracts
 Navigate to the smart_contract directory and install the necessary dependencies:
-
 
 cd smart_contract
 npm install
@@ -41,16 +39,13 @@ npm install
 ### 2.3 Configure Environment Variables
 Create a .env file in the smart_contract directory with the following content:
 
-
 ALCHEMY_API_KEY=<Your_Alchemy_API_Key>
 PRIVATE_KEY=<Your_Private_Wallet_Key>
-
 
 Replace <Your_Alchemy_API_Key> and <Your_Private_Wallet_Key> with your actual credentials.
 
 ### 2.4 Compile and Deploy Smart Contracts
 Compile and deploy the smart contracts by running:
-
 
 cd smart_contract
 npx hardhat compile
@@ -60,7 +55,6 @@ Replace <network-name> with your chosen Ethereum network (e.g., sepolia, mainnet
 
 ### 2.5 Start the Frontend
 Run the following command to start the frontend development server:
-
 
 cd client
 npm run dev
